@@ -1,6 +1,7 @@
 # OBJECTED ORIENTATED PROGRAMMING IN PYTHON
 
 # CREATING A CLASS
+# Example: Football Players
 
 class FootballPlayers:
   def __init__(self, name, nationality, goals_scored):
