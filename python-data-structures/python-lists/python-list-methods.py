@@ -10,6 +10,11 @@ Python List Methods
 items in a list.
 3. Some of the most common list methods are: append(), extend(), pop(), remove(), and sort().
 
+METHODS:
+* append(): SYNTAX: list.append(element). The append() method adds an item x to the end of the list.
+* pop(): SYNTAX: list.pop(index-position). The pop() method removes a list element at the specified position.
+If no index is provided, the last element of the list is removed and returned by default. This method also modifies the original list.
+
 """
 
 # EXAMPLE: LIST APPEND METHOD
