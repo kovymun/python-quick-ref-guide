@@ -26,3 +26,11 @@ print(number)  # Output: 12
 
 # Print the type of number after conversion
 print(type(number))  # Output: <class 'int'> (integer)
+
+# Example: Converting an integer to a boolean
+
+age = 32  # A non-zero integer
+
+is_age_truthy = bool(age)  # Convert to boolean
+
+print(is_age_truthy)  # Output: True (since non-zero values are truthy)
