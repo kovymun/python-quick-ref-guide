@@ -4,11 +4,12 @@
 --------------------
 Assignment operators
 --------------------
-1. Assignment operators are used to values to a variable. This values could be of type string, interger, even data structures like,
-lists or dictionaries.
-2. Some examples of assignment operators in python include:
-a) =
-b) += EXAMPLE num+=2 is the same as num = num +2
+1. Assignment operators are used to assign values to variables. These values can be of different data types, such as strings, integers, lists, or dictionaries.
+
+2. Some common assignment operators in Python include:
+   a) "=" :Assigns a value to a variable.
+   b) "+=" : Adds a value to the current variable and updates it.
+      **Example:** `num += 2` is the same as `num = num + 2`
 """
 
 # Example using Assignment operators
