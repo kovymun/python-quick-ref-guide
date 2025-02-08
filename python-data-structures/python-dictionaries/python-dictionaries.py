@@ -24,4 +24,4 @@ person = {
     "city": "Tokyo",
 }
 
-print(person) #Expected Output: {'name': 'Alice', 'age': 28, 'city': 'Tokyo'}
+print(person) #Output: {'name': 'Alice', 'age': 28, 'city': 'Tokyo'}
