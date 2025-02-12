@@ -48,6 +48,6 @@ all_fruits = fruits + more_fruits
 print(all_fruits) # Expected Output: ('Orange', 'Strawberry', 'Apple', 'Peach', 'Mango', 'Banana')
 
 # EXAMPLE 5: Length of a Tuple
-print(len(fruits)) # Expected Output: 4
+print(len(fruits)) # Expected Output: 4q
 # ------------------------------------------------------------------------------------------------------------------------------------- #
 
