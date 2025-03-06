@@ -20,7 +20,7 @@ Logical Operators
       **Example:** `not (5 > 2)` → `False`
 
 3. Logical operators are often used with comparison operators (">", "<", "==", etc.) to create complex conditions.
-
-
-
 """
+
+# logical and operator
+print((5 > 2) and (10 > 3)) # Output: True
