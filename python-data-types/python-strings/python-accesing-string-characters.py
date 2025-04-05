@@ -25,6 +25,11 @@ Strings are zero-indexed, meaning the first character is at position 0.
 *  end: The stopping index.
 *  step: The step value (optional, default is 1).
 3. Slicing Syntax for Strings: string_variable[start:stop:step]
+4. The optional step value tells Python how many characters to skip between each one it grabs from the string.
+So for example:
+* A step of 1 means “don’t skip anything — just go one by one.”
+* A step of 2 means “grab every second character.” (or skip 1)
+* A step of 3 would mean “grab every third character,” and so on. (or skip 2)
 """
 
 # ACCESSING CHARACTERS iN A STRING USING INDEXING
