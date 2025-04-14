@@ -1,3 +1,5 @@
+# PYTHON STRING METHODS
+
 greeting = "hello learner"
 print(greeting.upper())    # Output: "HELLO WORLD"
 print(greeting.lower())    # Output: "hello world"
@@ -69,3 +71,49 @@ custom_text = ",,,hello, learner!!!"
 clean_custom_text = custom_text.strip(",!")  # Removes leading/trailing ',' and '!'
 print(clean_custom_text)  # Output: "hello, learner"
 
+"""
+-------------------
+Comprehensive List of Common Python String Methods:
+-------------------
+1. capitalize(): Converts the first character to uppercase.
+2. casefold(): Converts string to lowercase more aggressively (useful for caseless comparisons).
+3. center(width, fillchar): Centers the string in a field of given width.
+4. count(substring, start, end): Returns the number of occurrences of a substring.
+5. endswith(suffix, start, end): Returns True if the string ends with the specified suffix.
+6. find(substring, start, end): Returns the index of the first occurrence. Returns -1 if not found.
+7. index(substring, start, end): Same as find(), but raises ValueError if not found.
+8. isalnum(): Returns True if all characters are alphanumeric.
+9. isalpha(): Returns True if all characters are alphabetic.
+10. isascii(): Returns True if all characters are ASCII.
+11. isdecimal(): Returns True if all characters are decimal characters.
+12. isdigit(): Returns True if all characters are digits.
+13. isidentifier(): Checks if the string is a valid Python identifier.
+14. islower(): Returns True if all cased characters are lowercase.
+15. isnumeric(): Returns True if all characters are numeric.
+16. isprintable(): Returns True if all characters are printable.
+17. isspace(): Returns True if all characters are whitespace.
+18. istitle(): Returns True if the string is in title case.
+19. isupper(): Returns True if all cased characters are uppercase.
+20. join(iterable): Joins the elements of an iterable with the string as separator.
+21. ljust(width, fillchar): Left aligns the string.
+22. lower(): Converts all characters to lowercase.
+23. lstrip([chars]): Removes leading characters (default is whitespace).
+24. partition(sep): Splits string into 3 parts: before sep, sep, after sep.
+25. removeprefix(prefix): Removes the specified prefix if present.
+26. removesuffix(suffix): Removes the specified suffix if present.
+27. replace(old, new, count): Replaces old with new.
+28. rfind(substring): Finds highest index of substring.
+29. rindex(substring): Same as rfind but raises ValueError if not found.
+30. rjust(width, fillchar): Right aligns the string.
+31. rsplit(sep, maxsplit): Splits from the right.
+32. rstrip([chars]): Removes trailing characters (default is whitespace).
+33. split(sep, maxsplit): Splits the string.
+34. splitlines(keepends): Splits at line breaks.
+35. startswith(prefix, start, end): Checks if the string starts with the given prefix.
+36. strip([chars]): Removes leading/trailing characters.
+37. swapcase(): Swaps uppercase to lowercase and vice versa.
+38. title(): Converts first letter of each word to uppercase.
+39. translate(map): Translates characters using a translation table.
+40. upper(): Converts string to uppercase.
+41. zfill(width): Pads string on the left with zeros to reach the width.
+"""
