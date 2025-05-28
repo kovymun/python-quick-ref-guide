@@ -1,6 +1,7 @@
 # PYTHON LIST COMPREHENSION
 
 # List comprehensions in Python share conceptual similarities with JavaScript's map and filter functions.
+# An alternate to traditional loops
 
 # Basic Syntax:
 # new_list = [expression for item in iterable]
@@ -10,6 +11,13 @@
 2. item: A variable representing each element in the iterable.
 3. iterable: The source of data (e.g., list, tuple, string, range).
 4. condition: An optional filter that determines which items are included.
+"""
+
+"""
+Key Benefits:
+- Offers a more elegant and efficient approach than traditional loops in many cases.
+
+
 """
 
 numbers = list(range(0, 8))
