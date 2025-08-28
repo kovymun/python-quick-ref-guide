@@ -10,6 +10,7 @@ print(greeting.lower())    # Output: "hello world"
 Split method: 
 -------------
 1. The split() method in Python is used to split a string into a LIST of substrings based on a specified delimiter (or seperator).
+** Analogy: Think of a long loaf of bread (the string) and the split() method as a knife that cuts the loaf into individual slices (the list of substrings).
 2. Examples of delimiters/seperators: comma(",") |  space (" ") | hyphen ("-") | pipe ("|")
 3. By default, it splits on whitespace (spaces, tabs, or newlines).
 4. SYNTAX: string.split(separator, maxsplit)
