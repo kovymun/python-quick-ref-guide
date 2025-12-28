@@ -1,4 +1,4 @@
-#PYTHON VARIABLES
+# PYTHON VARIABLES
 
 # Defining a variable in Python
 name = "James"  # This creates a variable called "name" and assigns it the value "James"
@@ -44,3 +44,16 @@ NAMING CONVENTION STANDARD:
 
 """
 
+"""
+EXAMPLE:
+
+An example of how we can use stored data (a.k.a. variables) is to calculate
+the total price of an item, including tax, as shown below.
+"""
+
+cost = 100  # Base cost of the item
+tax_percentage = 0.15  # 15% tax expressed as a decimal
+tax_amount = cost * tax_percentage  # Calculate the tax amount
+item_price = cost + tax_amount  # Final price including tax
+
+print(f"Item price = {item_price}")
