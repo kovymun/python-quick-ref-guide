@@ -12,7 +12,7 @@ items in a list.
 
 METHODS:
 * append(): SYNTAX: list.append(element). The append() method adds an item x to the end of the list.
-* pop(): SYNTAX: list.pop(index-position). The pop() method removes a list element at the specified position.
+* pop(): SYNTAX: list.pop(index-position). The pop() method removes a list element at the specified position. It is also important to note is that pop() does two things at once — it modifies the original list and returns the removed value.
 If no index is provided, the last element of the list is removed and returned by default. This method also modifies the original list.
 * copy(): SYNTAX: list.copy(). The copy() method returns a copy of the specified list.
 
@@ -23,11 +23,10 @@ If no index is provided, the last element of the list is removed and returned by
 cart = ["pears", "cactus"]
 cart.append("apple")
 
-print(cart) #Output: ['pears', 'cactus', 'apple']
+print(cart)  # Output: ['pears', 'cactus', 'apple']
 
 # Example: LIST COPY METHOD
 
 students = ["Tanya", "Giselle", "Esme"]
 student_copy = students.copy()
-print(student_copy) # Output: ['Tanya', 'Giselle', 'Esme']
-
+print(student_copy)  # Output: ['Tanya', 'Giselle', 'Esme']
